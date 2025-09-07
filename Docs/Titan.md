@@ -1,2 +1,3 @@
+AMAZON-TITAN
 
-ihello
+Amazon Titan is AWS’s family of foundation models (text, embeddings, multimodal, image) exposed via Amazon Bedrock. It launched as part of AWS’s Bedrock offering in 2023 and has evolved with newer embedding models (Titan Embeddings V2), multimodal/vision versions, and higher-capability text models (Premier / Express). Titan’s main advantages are tight AWS integration (S3, IAM, Bedrock Knowledge Bases), managed endpoints, and models tuned for common RAG and enterprise workflows; quality vs other providers varies by task and model generation. 
