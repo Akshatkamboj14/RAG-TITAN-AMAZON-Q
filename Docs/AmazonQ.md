@@ -51,8 +51,6 @@ Amazon Q is AWS’s enterprise generative-AI assistant that connects to an organ
 
 * **Network & data perimeter controls**: VPC endpoints (PrivateLink), encryption in transit & at rest, and logging/monitoring for auditability. 
 
-* **Fine-grained connector auth**: AWS blog describes integrating a Trusted Token Issuer (TTI) so third-party data accessors or ISVs can be granted controlled access without exposing raw credentials. This enables safe data sharing with verified ISVs. 
-
 * **Safety & abuse detection**: integrations (e.g., Q in Connect) include abuse detection flows provided by Bedrock and AWS controls. 
 
 ## Limitations, risks & where Q might not be ideal
