@@ -49,7 +49,10 @@ Amazon Q is AWS’s enterprise generative-AI assistant that connects to an organ
 
 * **IAM & identity integration**: Q uses AWS identity controls (IAM, IAM Identity Center) to enforce which users can access which data. 
 
-* **Network & data perimeter controls**: VPC endpoints (PrivateLink), encryption in transit & at rest, and logging/monitoring for auditability. 
+* **Network & data perimeter controls**: VPC endpoints (PrivateLink), encryption in transit & at rest, and logging/monitoring for auditability.
+    * **VPC Endpoints & PrivateLink** - Amazon Q can be configured to use VPC endpoints, ensuring that network traffic between your VPC and Amazon Q remains on the private AWS network. This prevents data from being exposed to the public internet, reducing the risk of man-in-the-middle attacks and data exfiltration.
+    * **Encryption in Transit**: When you communicate with Amazon Q, your prompts and responses are encrypted using TLS (Transport Layer Security). This secures the data as it travels between your application or device and the Amazon Q service.
+    * **Encryption at Rest**: Amazon Q stores data at rest using services like Amazon S3 and DynamoDB. This data is encrypted by default using AWS-owned encryption keys from AWS KMS. For some features, you have the option to use your own customer-managed KMS keys for an extra layer of control
 
 * **Safety & abuse detection**: integrations (e.g., Q in Connect) include abuse detection flows provided by Bedrock and AWS controls. 
 
