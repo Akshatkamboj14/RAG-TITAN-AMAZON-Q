@@ -62,7 +62,7 @@ Amazon Science
 
 * **Versus Anthropic (Claude)**: Claude often emphasizes safety and conversational behavior — again, pick based on task-specific evaluation and governance needs.
 
-**Bottom line**: there’s no universal winner; pick by task, integration needs, budget, and governance constraints. Independent benchmark comparisons change fast — run your own evals.
+**Bottom line**: there’s no universal winner; pick by task, integration needs, budget, and governance constraints. Independent benchmark comparisons change fast — run your own evaluations.
 
 
 ## Limitations and where Titan might be weaker
