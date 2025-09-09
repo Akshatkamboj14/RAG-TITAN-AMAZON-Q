@@ -1,5 +1,13 @@
 
 # To run this project, please follow these steps in your terminal:<br>
+
+## To install packages
+```
+sudo apt install python3-pip
+sudo apt install python3.12-venv
+```
+
+
 1. Create a new virtual environment<br>
 ```  python3 -m venv venv ```<br>
 2. Activate the virtual environment:<br>
