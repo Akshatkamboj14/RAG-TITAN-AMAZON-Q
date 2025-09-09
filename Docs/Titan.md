@@ -8,29 +8,23 @@ Amazon Titan is AWS’s family of foundation models (text, embeddings, multimoda
 ## Brief history & timeline (concise)
 
 * **April 2023** — AWS announced Amazon Bedrock and the Titan family as AWS’s foundation-model offering (Titan = AWS’s in-house family of FMs available through Bedrock). 
-InfoQ
-Amazon News
 
 * **Late 2023 – 2024** — AWS expanded Titan into multiple variants: text generation models (Premier, Express), embeddings models (Titan Text Embeddings initial release), multimodal/vision models and image-generation models (announcements and Amazon Science writeups). 
-Amazon Science
-Amazon Web Services, Inc.
 
 * **2024 (v2)** — Amazon Titan Text Embeddings V2 launched and was positioned specifically as RAG-optimized (multilingual + code support, improvements for retrieval). AWS also published tool/blog guidance about cost-effective RAG with Titan Embeddings v2.
 
 
 ## What’s in the Titan family (models & roles)
 
-* **Titan Text G1 – Premier** — highest-capability text generation model (large context windows; aimed at high-quality generation, summarization, QA, code). Example model ID: amazon.titan-text-premier-v1. Supports large max tokens for long-context RAG. 
+* **Titan Text G1 – Premier** — highest-capability text generation model (large context windows; aimed at high-quality generation, summarization, QA, code). Example model ID: amazon.titan-text-premier-v1. Supports max tokens = 32K. 
 
-* **Titan Text G1 – Express** — lower-latency / lower-cost generation model suitable for chat and RAG flows where latency matters; good for production conversational workloads. 
-AWS Documentation
+* **Titan Text G1 – Express** — lower-latency / lower-cost generation model suitable for chat and RAG flows where latency matters; good for production conversational workloads. Max Tokens = 8K
 
-* **Titan Text Embeddings (V1 & V2)** — embeddings models for semantic search/RAG. V2 is explicitly optimized for RAG, pre-trained on 100+ languages and code, and comes in latency-optimized endpoints for query-time embedding and throughput-optimized batch endpoints for indexing. 
+* **Titan Text Embeddings (V1 & V2)** — embeddings models for semantic search/RAG. V2 is explicitly optimized for RAG, pre-trained on 100+ languages and code, and comes in latency-optimized endpoints for query-time embedding and throughput-optimized batch endpoints for indexing. Max Tokens 8K.
 
-* **Titan Multimodal / Vision models** — multimodal embeddings and vision-language models for image+text search and multimodal tasks. AWS/ Amazon Science posts discuss Titan multimodal capabilities. 
-Amazon Science
+* **Titan Multimodal / Vision models** — multimodal embeddings and vision-language models for image+text search and multimodal tasks. AWS/ Amazon Science posts discuss Titan multimodal capabilities. Max Tokens = 128
 
-* **Titan Image Generator G1** — image generation model(s) in the Titan family (for image creation tasks).
+* **Titan Image Generator G1** — image generation model(s) in the Titan family (for image creation tasks). Max Token = 512
 
 ## Key technical characteristics & features
 
