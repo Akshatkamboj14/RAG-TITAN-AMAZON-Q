@@ -1,27 +1,35 @@
- print("-----------------------------------------------------------------------------------")
-    print("To run this project, please follow these steps in your terminal:")
-    print("\n1. Create a new virtual environment:")
-    print("   python3 -m venv venv")
-    print("\n2. Activate the virtual environment:")
-    print("   source venv/bin/activate")
-    print("\n3. Install the required libraries inside the virtual environment:")
-    print("   pip install langchain langchain-aws faiss-cpu langchain_community")
-    print("\n4. Set your AWS credentials as environment variables in the SAME terminal:")
-    print("   export AWS_ACCESS_KEY_ID=\"<your_access_key>\"")
-    print("   export AWS_SECRET_ACCESS_KEY=\"<your_secret_key>\"")
-    print("   export AWS_REGION_NAME=\"us-east-1\"")
-    print("   (Note: The `export` command is for Linux/macOS. For Windows, use `set` or `setx`)")
-    print("\n5. Run the script using the python interpreter inside the virtual environment:")
-    print("   python rag_bedrock.py")
-    print("-----------------------------------------------------------------------------------\n")
+
+# To run this project, please follow these steps in your terminal:<br>
+1. Create a new virtual environment<br>
+```  python3 -m venv venv ```<br>
+2. Activate the virtual environment:<br>
+```source venv/bin/activate```<br>
+
+3. Install the required libraries:<br>
+```pip install langchain langchain-aws faiss-cpu langchain_community```<br>
+
+4. Set your AWS credentials:<br>
+
+- Linux/macOS:
+```
+export AWS_ACCESS_KEY_ID="<your_access_key>"
+export AWS_SECRET_ACCESS_KEY="<your_secret_key>"
+export AWS_REGION_NAME="us-east-1"
+```
+- Windows:
+```
+set AWS_ACCESS_KEY_ID="<your_access_key>"
+set AWS_SECRET_ACCESS_KEY="<your_secret_key>"
+set AWS_REGION_NAME="us-east-1"
+```
+5. Run the script:<br>
+```python rag_bedrock.py```
+
+<br>
 
 
-
-
-
-
-
-# rag_bedrock.py
+## rag_bedrock.py
+```
 import os
 import boto3
 from langchain_aws import ChatBedrock, BedrockEmbeddings
@@ -167,7 +175,7 @@ if __name__ == "__main__":
         
         print("--- Final Generated Answer ---")
         print(response)
-
+```
 
 
 
