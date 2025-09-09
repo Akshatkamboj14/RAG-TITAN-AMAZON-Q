@@ -69,5 +69,3 @@ Amazon Titan is AWS’s family of foundation models (text, embeddings, multimoda
 
 * **Choose Titan if**: you already run on AWS and want a managed stack (Bedrock + S3 + IAM) with simple integration, need RAG-optimized embeddings + large-context generation, or want enterprise features (Bedrock Knowledge Bases, Agents, Amazon Q integration). 
 
-* **Consider other models if**: you need the absolute top benchmark scores on some narrow tasks where independent tests favor GPT/Gemini/Claude, or if you require multi-cloud portability and want to avoid AWS lock-in. Use task-specific evaluation.
-
