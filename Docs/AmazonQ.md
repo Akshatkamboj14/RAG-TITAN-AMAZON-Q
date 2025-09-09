@@ -27,9 +27,6 @@ Amazon Q is AWS’s enterprise generative-AI assistant that connects to an organ
 
 * **Developer tooling** — code generation, debugging help, security scanning suggestions (via integrations and developer-mode features). 
 
-
-* **Enterprise connectors & indexing** — Q uses data connectors and an index (Q index/knowledge base) so it can securely retrieve organization-specific context for answers. 
-
 ## Problems Q was designed to solve
 
 * **Siloed enterprise knowledge**: unify search across docs, databases, BI, code and apps so employees can ask natural-language questions without switching tools. 
