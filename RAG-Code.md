@@ -9,12 +9,24 @@ sudo apt install python3.12-venv
 
 
 1. Create a new virtual environment<br>
-```  python3 -m venv venv ```<br>
+```
+python3 -m venv venv
+
+ ```
+<br>
 2. Activate the virtual environment:<br>
-```source venv/bin/activate```<br>
+
+```
+source venv/bin/activate
+
+```
+<br>
 
 3. Install the required libraries:<br>
-```pip install langchain langchain-aws faiss-cpu langchain_community```<br>
+```
+pip install langchain langchain-aws faiss-cpu langchain_community
+```
+<br>
 
 4. Set your AWS credentials:<br>
 
@@ -31,7 +43,9 @@ set AWS_SECRET_ACCESS_KEY="<your_secret_key>"
 set AWS_REGION_NAME="us-east-1"
 ```
 5. Run the script:<br>
-```python rag_bedrock.py```
+```
+python rag_bedrock.py
+```
 
 <br>
 
