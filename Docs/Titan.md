@@ -54,7 +54,7 @@ Amazon Science
 
 ### Quick comparison vs other big models (high level)
 
-* **Versus OpenAI (GPT family)**: GPT models have been benchmark leaders in many tasks; OpenAI provides a mature API and ecosystem. Titan’s advantage is AWS ecosystem integration and Bedrock-managed environment — good for enterprises already on AWS. Empirical performance varies by task and model tier. 
+* **Versus OpenAI (GPT family)**: GPT models have been good in many tasks; OpenAI provides a mature API and ecosystem. Titan’s advantage is AWS ecosystem integration and Bedrock-managed environment — good for enterprises already on AWS. Empirical performance varies by task and model tier. 
 
 
 * **Versus Google (Gemini)**: Google’s Gemini family emphasizes multimodal capabilities and tight Google Cloud integration. Titan competes on enterprise integration but different clouds / ecosystems and tradeoffs will matter. 
